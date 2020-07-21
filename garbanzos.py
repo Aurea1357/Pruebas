@@ -1,7 +1,7 @@
-num1 = float(input("Primer numero: "))
+num1 = float(input("Primer cantidad de garbanzos: "))
 op = input("Operador: ")
-num2 = float(input("Segundo nummero: "))
-
+num2 = float(input("Segundo cantidad de garbanzos: "))
+print("Garbanzos totales: ")
 if op == "+":
     print(num1 + num2)
 elif op == "-":
